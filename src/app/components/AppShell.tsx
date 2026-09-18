@@ -1,9 +1,11 @@
-import { NavLink } from 'react-router';
-import { Settings, Leaf, BarChart3, Users, ShieldCheck } from 'lucide-react';
+import { NavLink, Navigate, Outlet, useNavigate } from 'react-router';
+import { Settings, Leaf, BarChart3, Users, ShieldCheck, LogOut } from 'lucide-react';
 import { useEsg } from '../context/EsgProvider';
+import { SettingsModal } from './SettingsModal';
+import { clearSession, hasSession } from '../../lib/storage';
 
 const links = [
-  { to: '/', label: 'Main Dashboard', end: true },
+  { to: '/dashboard', label: 'Main Dashboard', end: true },
   {
     to: '/environmental',
     label: 'Environmental',
@@ -18,8 +20,13 @@ const links = [
   { to: '/governance', label: 'Governance', icon: <ShieldCheck className="w-4 h-4" strokeWidth={1.5} /> },
 ] as const;
 
-export function AppShell({ children }: { children: React.ReactNode }) {
+export function AppShell() {
   const { dataset, openSettings, openBlockers } = useEsg();
+  const navigate = useNavigate();
+
+  if (!hasSession()) {
+    return <Navigate to="/login" replace />;
+  }
 
   return (
     <div className="min-h-screen bg-[#F8F9FA]">
@@ -69,13 +76,25 @@ export function AppShell({ children }: { children: React.ReactNode }) {
               >
                 <Settings className="w-5 h-5" />
               </button>
+              <button
+                type="button"
+                onClick={() => {
+                  clearSession();
+                  navigate('/');
+                }}
+                className="p-3 text-white/80 hover:bg-[#E5B700]/10 rounded transition-colors border-2 border-white/20 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#E5B700]"
+                aria-label="Sign out"
+              >
+                <LogOut className="w-5 h-5" />
+              </button>
             </div>
           </div>
         </div>
       </header>
       <main id="main-content" className="max-w-[1920px] mx-auto">
-        {children}
+        <Outlet />
       </main>
+      <SettingsModal />
     </div>
   );
 }
