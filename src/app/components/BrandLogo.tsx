@@ -7,5 +7,5 @@ export function BrandLogo({
   className?: string;
   alt?: string;
 }) {
-  return <img src="/logo.svg" alt={alt} className={`object-contain ${className}`} />;
+  return <img src="/logo_no_name.svg" alt={alt} className={`object-contain ${className}`} />;
 }
