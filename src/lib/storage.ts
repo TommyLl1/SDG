@@ -4,6 +4,23 @@ import { getFramework } from './frameworks';
 export const SETTINGS_KEY = 'kaiheng.esg.settings.v3';
 export const VALIDATION_KEY = 'kaiheng.esg.validation-status';
 export const SOURCE_KEY = 'kaiheng.esg.source-overrides';
+export const SESSION_KEY = 'kaiheng.esg.session';
+
+export function hasSession(): boolean {
+  try {
+    return localStorage.getItem(SESSION_KEY) === '1';
+  } catch {
+    return false;
+  }
+}
+
+export function setSession(): void {
+  localStorage.setItem(SESSION_KEY, '1');
+}
+
+export function clearSession(): void {
+  localStorage.removeItem(SESSION_KEY);
+}
 
 export function defaultSettings(dataset: EsgDataset): AppSettings {
   return {
