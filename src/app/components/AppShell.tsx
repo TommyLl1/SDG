@@ -4,6 +4,7 @@ import { useEsg } from '../context/EsgProvider';
 import { SettingsModal } from './SettingsModal';
 import { clearSession, hasSession } from '../../lib/storage';
 import { BrandLogo } from './BrandLogo';
+import { BRAND } from '../../lib/brand';
 
 const links = [
   { to: '/dashboard', label: 'Main Dashboard', end: true },
@@ -63,6 +64,7 @@ export function AppShell() {
               </nav>
             </div>
             <div className="flex items-center gap-3">
+              <span className="tracking-wide text-[#365828] text-sm">{BRAND.name}</span>
               {openBlockers.length > 0 && (
                 <span className="hidden lg:inline text-[#365828] text-xs">
                   {openBlockers.length} report blocker{openBlockers.length === 1 ? '' : 's'}

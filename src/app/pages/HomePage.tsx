@@ -15,9 +15,12 @@ export function HomePage() {
         <Link to="/" className="flex items-center">
           <BrandLogo className="h-9 w-9" />
         </Link>
-        <Link to={next} className="text-sm text-[#365828]/70 hover:text-[#365828]">
-          {signedIn ? 'Dashboards' : 'Sign in'}
-        </Link>
+        <div className="flex items-center gap-4">
+          <span className="tracking-wide">{BRAND.name}</span>
+          <Link to={next} className="text-sm text-[#365828]/70 hover:text-[#365828]">
+            {signedIn ? 'Dashboards' : 'Sign in'}
+          </Link>
+        </div>
       </header>
 
       <main>
