@@ -38,7 +38,7 @@ export function AppShell() {
       >
         Skip to content
       </a>
-      <header className="bg-white border-b border-[#365828]">
+      <header className="sticky top-0 z-50 bg-white border-b border-[#365828]">
         <div className="max-w-[1920px] mx-auto px-6">
           <div className="flex items-center justify-between min-h-20">
             <div className="flex items-center min-w-0">
