@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { Link, useNavigate } from 'react-router';
 import { Database, FileUp, LogIn } from 'lucide-react';
-import { esgDataset } from '../../data';
 import { setSession } from '../../lib/storage';
 
 type EntryTab = 'login' | 'upload' | 'api';
@@ -31,7 +30,7 @@ export function LoginPage() {
       <header className="bg-[#003A70] border-b border-[#E5B700]/30">
         <div className="max-w-xl mx-auto px-6 h-16 flex items-center justify-between">
           <Link to="/" className="text-[#E5B700] text-sm hover:text-white">
-            {esgDataset.organization.shortName}
+            ESG Reporting System
           </Link>
           <Link to="/" className="text-white/70 text-sm hover:text-white">
             Back to intro

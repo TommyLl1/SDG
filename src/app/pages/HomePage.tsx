@@ -1,10 +1,19 @@
 import type { ReactNode } from 'react';
 import { Link } from 'react-router';
-import { ArrowRight, Cable, FileSpreadsheet, Leaf, Plug, ShieldCheck, Users } from 'lucide-react';
-import { esgDataset } from '../../data';
+import {
+  ArrowRight,
+  BarChart3,
+  Database,
+  FileSpreadsheet,
+  FileText,
+  Leaf,
+  Plug,
+  ShieldCheck,
+  Users,
+} from 'lucide-react';
 import { hasSession } from '../../lib/storage';
 
-const org = esgDataset.organization;
+const PRODUCT = 'ESG Reporting System';
 
 export function HomePage() {
   const signedIn = hasSession();
@@ -14,8 +23,8 @@ export function HomePage() {
       <header className="bg-[#003A70] border-b border-[#E5B700]/30">
         <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
           <div>
-            <p className="text-[#E5B700] text-sm leading-tight">{org.shortName}</p>
-            <p className="text-white/70 text-xs">{org.chineseName}</p>
+            <p className="text-[#E5B700] text-sm leading-tight">{PRODUCT}</p>
+            <p className="text-white/70 text-xs">Real-time report generation</p>
           </div>
           <Link
             to={signedIn ? '/dashboard' : '/login'}
@@ -30,42 +39,60 @@ export function HomePage() {
         <section className="bg-[#003A70] text-white">
           <div className="max-w-6xl mx-auto px-6 py-16 md:py-24 grid md:grid-cols-[1.4fr_1fr] gap-12 items-end">
             <div>
-              <p className="text-[#E5B700] text-sm mb-3">Real-time ESG reporting</p>
+              <p className="text-[#E5B700] text-sm mb-3">From source data to an audit-ready pack</p>
               <h1 className="text-white mb-4" style={{ fontSize: '2.25rem', lineHeight: 1.2 }}>
-                Supplier evidence pack for NEV charging modules and 400/800 V connectors
+                Generate live ESG reports from operational files and internal APIs
               </h1>
               <p className="text-white/80 max-w-2xl">
-                {org.legalName} is a 128-person unlisted manufacturer. EU buyers will not close an RFQ
-                without GHG, energy, water, waste, safety and labour evidence. This system turns workshop
-                meters, tickets and HR extracts into a live CSDDD / LkSG / CSRD value-chain pack.
+                This system ingests meters, tickets, workforce and compliance extracts, maps them to
+                standard metrics, scores Environmental / Social / Governance, and exports a PDF or Excel
+                evidence pack. Generation stays gated until required validations are cleared.
               </p>
             </div>
-            <div className="border border-[#E5B700]/40 p-6 space-y-3">
-              <p className="text-[#E5B700] text-sm">Demo boundary</p>
-              <p className="text-white text-sm">{org.productFocus}</p>
-              <p className="text-white/70 text-sm">
-                Kowloon Bay sales office (12) · one leased Dongguan workshop (116)
-              </p>
-              <p className="text-white/70 text-sm">{esgDataset.reportingPeriod.label} · as of {esgDataset.reportingPeriod.asOf.slice(0, 10)}</p>
-            </div>
+            <ol className="border border-[#E5B700]/40 p-6 space-y-4">
+              <li className="text-sm">
+                <span className="text-[#E5B700] block">1. Connect</span>
+                <span className="text-white/80">Upload CSV / JSON / Excel or point at an internal API.</span>
+              </li>
+              <li className="text-sm">
+                <span className="text-[#E5B700] block">2. Calculate</span>
+                <span className="text-white/80">Scope 1–2, intensity, LTIFR, training and compliance scores.</span>
+              </li>
+              <li className="text-sm">
+                <span className="text-[#E5B700] block">3. Validate</span>
+                <span className="text-white/80">Open blockers hold the report until they are resolved.</span>
+              </li>
+              <li className="text-sm">
+                <span className="text-[#E5B700] block">4. Export</span>
+                <span className="text-white/80">Download the customer ESG pack as PDF or Excel.</span>
+              </li>
+            </ol>
           </div>
         </section>
 
         <section className="max-w-6xl mx-auto px-6 py-14">
-          <h2 className="mb-2">Who this pack is for</h2>
+          <h2 className="mb-2">What the generator produces</h2>
           <p className="text-[#6C757D] mb-8 max-w-3xl">
-            Quality and sustainability leads who need to answer OEM due-diligence questions from the same
-            activity data they already keep on the shop floor — not a listed-group ESG suite.
+            One activity dataset feeds live dashboards and the same numbers that land in the downloaded pack.
+            Switch the regulatory overlay without re-keying source files.
           </p>
           <div className="grid md:grid-cols-2 gap-6">
-            {org.customers.map((customer) => (
-              <article key={customer.id} className="bg-white border border-[#003A70]/10 p-6">
-                <p className="text-[#E5B700] text-sm mb-1">{customer.region}</p>
-                <h3 className="mb-2">{customer.name}</h3>
-                <p className="text-[#6C757D] text-sm mb-3">{customer.asksFor}</p>
-                <p className="text-sm">{customer.status}</p>
-              </article>
-            ))}
+            <article className="bg-white border border-[#003A70]/10 p-6">
+              <FileText className="w-5 h-5 text-[#E5B700] mb-3" />
+              <h3 className="mb-2">Reporting Centre</h3>
+              <p className="text-[#6C757D] text-sm">
+                Annual YTD or quarterly PDF / Excel packs. Export is blocked while required validations remain
+                open, so incomplete evidence cannot leave the system as a finished report.
+              </p>
+            </article>
+            <article className="bg-white border border-[#003A70]/10 p-6">
+              <BarChart3 className="w-5 h-5 text-[#E5B700] mb-3" />
+              <h3 className="mb-2">Live E / S / G dashboards</h3>
+              <p className="text-[#6C757D] text-sm">
+                Integrated score, pillar views, forecasts and insights update from the mapped source extracts.
+                The same formulas appear in Settings → Mapping so the pack stays traceable.
+              </p>
+            </article>
           </div>
         </section>
 
@@ -74,39 +101,61 @@ export function HomePage() {
             <Feature
               icon={<Leaf className="w-5 h-5" />}
               title="Environmental"
-              body="Scope 1–2 from electricity, diesel, natural gas and F-gas logs. Plating water and hazardous sludge versus copper scrap."
+              body="Energy, water and waste roll into Scope 1–2, location- and market-based where the framework requires it, plus intensity and a simple emissions forecast."
             />
             <Feature
               icon={<Users className="w-5 h-5" />}
               title="Social"
-              body="128-person roster, LTIFR from hours and incidents, and 800 V electrical-safety authorisation coverage."
+              body="Workforce composition, hours, incidents and training coverage become LTIFR and labour metrics used in both the dashboard and the exported pack."
             />
             <Feature
               icon={<ShieldCheck className="w-5 h-5" />}
               title="Governance"
-              body="IATF 16949 / OEM RFQ gates, speak-up channel, and report blockers that hold the customer pack until they are cleared."
+              body="Compliance scores, speak-up and quality-system checks sit on the report gate. Unresolved blockers keep generation from completing."
             />
           </div>
         </section>
 
         <section className="max-w-6xl mx-auto px-6 py-14">
-          <h2 className="mb-2">How you enter</h2>
+          <h2 className="mb-2">Framework overlays</h2>
           <p className="text-[#6C757D] mb-8 max-w-3xl">
-            Sign in, upload source files, or point at an internal connector. This demo does not check
-            credentials or files — any input continues to the live dashboards.
+            Required metrics and score weights change with the selected framework. Source activity stays the same.
           </p>
-          <div className="grid md:grid-cols-3 gap-6">
-            <Step icon={<Cable className="w-5 h-5" />} title="Sign in" body="Type any name or password and continue." />
-            <Step icon={<FileSpreadsheet className="w-5 h-5" />} title="Upload data" body="Attach CSV, JSON or Excel extracts from meters, HR or EHS." />
-            <Step icon={<Plug className="w-5 h-5" />} title="Connect API" body="Paste any internal path or endpoint and continue." />
+          <ul className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3 text-sm">
+            {[
+              'EU / OEM customer due diligence (CSDDD, LkSG, CSRD value chain)',
+              'GRI',
+              'ISSB IFRS S1 / S2',
+              'TCFD',
+              'HKEX ESG Code',
+            ].map((name) => (
+              <li key={name} className="bg-white border border-[#003A70]/10 px-4 py-3">
+                {name}
+              </li>
+            ))}
+          </ul>
+        </section>
+
+        <section className="border-t border-[#003A70]/10">
+          <div className="max-w-6xl mx-auto px-6 py-14">
+            <h2 className="mb-2">How you enter</h2>
+            <p className="text-[#6C757D] mb-8 max-w-3xl">
+              Sign in, upload source files, or connect an API. This demo does not check credentials or files —
+              any input continues to the generator.
+            </p>
+            <div className="grid md:grid-cols-3 gap-6">
+              <Step icon={<Database className="w-5 h-5" />} title="Sign in" body="Type any name or password and continue." />
+              <Step icon={<FileSpreadsheet className="w-5 h-5" />} title="Upload data" body="Attach CSV, JSON or Excel extracts from meters, HR, EHS or quality." />
+              <Step icon={<Plug className="w-5 h-5" />} title="Connect API" body="Paste any internal path or endpoint and continue." />
+            </div>
+            <Link
+              to={signedIn ? '/dashboard' : '/login'}
+              className="mt-10 inline-flex items-center gap-2 px-6 py-3 bg-[#003A70] text-white rounded hover:bg-[#003A70]/90"
+            >
+              {signedIn ? 'Return to dashboards' : 'Start report generation'}
+              <ArrowRight className="w-4 h-4" />
+            </Link>
           </div>
-          <Link
-            to={signedIn ? '/dashboard' : '/login'}
-            className="mt-10 inline-flex items-center gap-2 px-6 py-3 bg-[#003A70] text-white rounded hover:bg-[#003A70]/90"
-          >
-            {signedIn ? 'Return to dashboards' : 'Enter the system'}
-            <ArrowRight className="w-4 h-4" />
-          </Link>
         </section>
       </main>
     </div>
