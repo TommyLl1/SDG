@@ -1,0 +1,14 @@
+---
+description: Commit each completed function as its own git commit
+alwaysApply: true
+---
+
+# Commit each function
+
+After a function or feature is complete, create a git commit for that slice before starting the next one.
+
+- One concern per commit (homepage, login, routing, a panel, a bugfix).
+- Do not batch unrelated functions into a single commit.
+- Follow the repo git protocol: never update git config, never skip hooks, never force-push, commit only when the user wants commits. This project wants a commit per function by default.
+- Stage only the files for that function.
+- Use a short message that says why the slice exists.
