@@ -10,8 +10,8 @@ export function HomePage() {
   const next = signedIn ? '/dashboard' : '/login';
 
   return (
-    <div className="min-h-screen bg-white text-[#365828]">
-      <header className="border-b border-[#365828]">
+    <div className="min-h-screen text-[#365828]">
+      <header className="bg-white border-b border-[#365828]">
         <div className="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
           <Link to="/" className="flex items-center gap-2 text-[#365828]">
             <BrandLogo className="h-12 w-12" />

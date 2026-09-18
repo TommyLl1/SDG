@@ -28,7 +28,7 @@ export function LoginPage() {
   };
 
   return (
-    <div className="min-h-screen bg-white text-[#365828]">
+    <div className="min-h-screen text-[#365828]">
       <header className="bg-white border-b border-[#365828]">
         <div className="max-w-xl mx-auto px-6 h-20 flex items-center justify-between">
           <Link to="/" className="flex items-center gap-2 text-[#365828] text-sm hover:text-[#365828]/80">

@@ -1,7 +1,7 @@
 :root {
   --font-size: 16px;
-  --background: #F8F9FA;
-  --foreground: #003A70;
+  --background: #eaf3e6;
+  --foreground: #365828;
 }
 
 @layer base {
@@ -10,8 +10,9 @@
   }
 
   body {
-    background: #F8F9FA;
-    color: #003A70;
+    background: linear-gradient(180deg, #f7faf6 0%, #eaf3e6 48%, #f4f8f2 100%);
+    background-attachment: fixed;
+    color: #365828;
     margin: 0;
     font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
   }
