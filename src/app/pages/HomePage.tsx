@@ -12,15 +12,13 @@ export function HomePage() {
   return (
     <div className="min-h-screen bg-white text-[#365828]">
       <header className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-        <Link to="/" className="flex items-center">
+        <Link to="/" className="flex items-center gap-2 text-[#365828]">
           <BrandLogo className="h-9 w-9" />
-        </Link>
-        <div className="flex items-center gap-4">
           <span className="tracking-wide">{BRAND.name}</span>
-          <Link to={next} className="text-sm text-[#365828]/70 hover:text-[#365828]">
-            {signedIn ? 'Dashboards' : 'Sign in'}
-          </Link>
-        </div>
+        </Link>
+        <Link to={next} className="text-sm text-[#365828]/70 hover:text-[#365828]">
+          {signedIn ? 'Dashboards' : 'Sign in'}
+        </Link>
       </header>
 
       <main>
