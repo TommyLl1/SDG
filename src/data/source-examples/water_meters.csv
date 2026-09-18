@@ -1,0 +1,25 @@
+meter_id,site_id,process,month,m3,uom
+DG-W-PLT,dgws,plating rinse,2026-01,732,m3
+DG-W-CT,dgws,cooling tower,2026-01,260,m3
+DG-W-DI,dgws,PCBA wash / DI,2026-01,188,m3
+DG-W-PLT,dgws,plating rinse,2026-02,533,m3
+DG-W-CT,dgws,cooling tower,2026-02,189,m3
+DG-W-DI,dgws,PCBA wash / DI,2026-02,138,m3
+DG-W-PLT,dgws,plating rinse,2026-03,769,m3
+DG-W-CT,dgws,cooling tower,2026-03,273,m3
+DG-W-DI,dgws,PCBA wash / DI,2026-03,198,m3
+DG-W-PLT,dgws,plating rinse,2026-04,738,m3
+DG-W-CT,dgws,cooling tower,2026-04,262,m3
+DG-W-DI,dgws,PCBA wash / DI,2026-04,190,m3
+DG-W-PLT,dgws,plating rinse,2026-05,794,m3
+DG-W-CT,dgws,cooling tower,2026-05,282,m3
+DG-W-DI,dgws,PCBA wash / DI,2026-05,204,m3
+DG-W-PLT,dgws,plating rinse,2026-06,843,m3
+DG-W-CT,dgws,cooling tower,2026-06,299,m3
+DG-W-DI,dgws,PCBA wash / DI,2026-06,218,m3
+DG-W-PLT,dgws,plating rinse,2026-07,880,m3
+DG-W-CT,dgws,cooling tower,2026-07,312,m3
+DG-W-DI,dgws,PCBA wash / DI,2026-07,228,m3
+DG-W-PLT,dgws,plating rinse,2026-08,812,m3
+DG-W-CT,dgws,cooling tower,2026-08,288,m3
+DG-W-DI,dgws,PCBA wash / DI,2026-08,210,m3

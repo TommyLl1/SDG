@@ -1,0 +1,41 @@
+meter_id,site_id,meter_name,process,month,kwh,renewable_kwh,uom,included_in_scope2
+HK-OFF-01,hkhq,Kowloon Bay two-room office,offices,2026-01,8400,0,kWh,yes
+DG-MOLD-04,dgws,Injection presses 1–6 (HV connectors),HV connector molding,2026-01,80640,22680,kWh,yes
+DG-PLT-02,dgws,Small plating rectifier,connector plating,2026-01,36960,0,kWh,yes
+DG-SMT-01,dgws,Charging-module SMT cell,charging-module PCBA,2026-01,20160,2419,kWh,yes
+DG-AGE-03,dgws,Two 800V burn-in racks,charging-module aging,2026-01,21840,5141,kWh,yes
+HK-OFF-01,hkhq,Kowloon Bay two-room office,offices,2026-02,6600,0,kWh,yes
+DG-MOLD-04,dgws,Injection presses 1–6 (HV connectors),HV connector molding,2026-02,63360,19800,kWh,yes
+DG-PLT-02,dgws,Small plating rectifier,connector plating,2026-02,29040,0,kWh,yes
+DG-SMT-01,dgws,Charging-module SMT cell,charging-module PCBA,2026-02,15840,2112,kWh,yes
+DG-AGE-03,dgws,Two 800V burn-in racks,charging-module aging,2026-02,17160,4488,kWh,yes
+HK-OFF-01,hkhq,Kowloon Bay two-room office,offices,2026-03,8800,0,kWh,yes
+DG-MOLD-04,dgws,Injection presses 1–6 (HV connectors),HV connector molding,2026-03,84480,25080,kWh,yes
+DG-PLT-02,dgws,Small plating rectifier,connector plating,2026-03,38720,0,kWh,yes
+DG-SMT-01,dgws,Charging-module SMT cell,charging-module PCBA,2026-03,21120,2675,kWh,yes
+DG-AGE-03,dgws,Two 800V burn-in racks,charging-module aging,2026-03,22880,5685,kWh,yes
+HK-OFF-01,hkhq,Kowloon Bay two-room office,offices,2026-04,8550,0,kWh,yes
+DG-MOLD-04,dgws,Injection presses 1–6 (HV connectors),HV connector molding,2026-04,82080,25650,kWh,yes
+DG-PLT-02,dgws,Small plating rectifier,connector plating,2026-04,37620,0,kWh,yes
+DG-SMT-01,dgws,Charging-module SMT cell,charging-module PCBA,2026-04,20520,2736,kWh,yes
+DG-AGE-03,dgws,Two 800V burn-in racks,charging-module aging,2026-04,22230,5814,kWh,yes
+HK-OFF-01,hkhq,Kowloon Bay two-room office,offices,2026-05,9100,0,kWh,yes
+DG-MOLD-04,dgws,Injection presses 1–6 (HV connectors),HV connector molding,2026-05,87360,28665,kWh,yes
+DG-PLT-02,dgws,Small plating rectifier,connector plating,2026-05,40040,0,kWh,yes
+DG-SMT-01,dgws,Charging-module SMT cell,charging-module PCBA,2026-05,21840,3058,kWh,yes
+DG-AGE-03,dgws,Two 800V burn-in racks,charging-module aging,2026-05,23660,6497,kWh,yes
+HK-OFF-01,hkhq,Kowloon Bay two-room office,offices,2026-06,9550,0,kWh,yes
+DG-MOLD-04,dgws,Injection presses 1–6 (HV connectors),HV connector molding,2026-06,91680,30083,kWh,yes
+DG-PLT-02,dgws,Small plating rectifier,connector plating,2026-06,42020,0,kWh,yes
+DG-SMT-01,dgws,Charging-module SMT cell,charging-module PCBA,2026-06,22920,3209,kWh,yes
+DG-AGE-03,dgws,Two 800V burn-in racks,charging-module aging,2026-06,24830,6818,kWh,yes
+HK-OFF-01,hkhq,Kowloon Bay two-room office,offices,2026-07,9900,0,kWh,yes
+DG-MOLD-04,dgws,Injection presses 1–6 (HV connectors),HV connector molding,2026-07,95040,29700,kWh,yes
+DG-PLT-02,dgws,Small plating rectifier,connector plating,2026-07,43560,0,kWh,yes
+DG-SMT-01,dgws,Charging-module SMT cell,charging-module PCBA,2026-07,23760,3168,kWh,yes
+DG-AGE-03,dgws,Two 800V burn-in racks,charging-module aging,2026-07,25740,6732,kWh,yes
+HK-OFF-01,hkhq,Kowloon Bay two-room office,offices,2026-08,9300,0,kWh,yes
+DG-MOLD-04,dgws,Injection presses 1–6 (HV connectors),HV connector molding,2026-08,89280,30690,kWh,yes
+DG-PLT-02,dgws,Small plating rectifier,connector plating,2026-08,40920,0,kWh,yes
+DG-SMT-01,dgws,Charging-module SMT cell,charging-module PCBA,2026-08,22320,3274,kWh,yes
+DG-AGE-03,dgws,Two 800V burn-in racks,charging-module aging,2026-08,24180,6956,kWh,yes

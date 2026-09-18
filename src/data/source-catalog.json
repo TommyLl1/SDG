@@ -1,0 +1,679 @@
+{
+  "description": "Source extracts for this 128-person company. Meter and ticket files are CSV; organisation, customers, roster and monthly activity are also JSON. Totals roll up to esg-dataset.json.",
+  "files": [
+    {
+      "id": "elec",
+      "file": "src/data/source-examples/electricity_meters.csv",
+      "pillar": "environmental",
+      "system": "Workshop EMS",
+      "grain": "meter × month",
+      "feeds": "Scope 2",
+      "note": "Five meters in one Dongguan workshop plus the HK office. kWh sums to the dashboard.",
+      "headers": [
+        "meter_id",
+        "site_id",
+        "meter_name",
+        "process",
+        "month",
+        "kwh",
+        "renewable_kwh",
+        "uom",
+        "included_in_scope2"
+      ],
+      "preview": [
+        [
+          "HK-OFF-01",
+          "hkhq",
+          "Kowloon Bay two-room office",
+          "offices",
+          "2026-01",
+          "8400",
+          "0",
+          "kWh",
+          "yes"
+        ],
+        [
+          "DG-MOLD-04",
+          "dgws",
+          "Injection presses 1–6 (HV connectors)",
+          "HV connector molding",
+          "2026-01",
+          "80640",
+          "22680",
+          "kWh",
+          "yes"
+        ],
+        [
+          "DG-PLT-02",
+          "dgws",
+          "Small plating rectifier",
+          "connector plating",
+          "2026-01",
+          "36960",
+          "0",
+          "kWh",
+          "yes"
+        ],
+        [
+          "DG-SMT-01",
+          "dgws",
+          "Charging-module SMT cell",
+          "charging-module PCBA",
+          "2026-01",
+          "20160",
+          "2419",
+          "kWh",
+          "yes"
+        ],
+        [
+          "DG-AGE-03",
+          "dgws",
+          "Two 800V burn-in racks",
+          "charging-module aging",
+          "2026-01",
+          "21840",
+          "5141",
+          "kWh",
+          "yes"
+        ]
+      ]
+    },
+    {
+      "id": "diesel",
+      "file": "src/data/source-examples/diesel_tickets.csv",
+      "pillar": "environmental",
+      "system": "Van tickets",
+      "grain": "ticket",
+      "feeds": "Scope 1 diesel",
+      "note": "Mapped litres sum to YTD diesel. DG-08-17 (95 L) is excluded.",
+      "headers": [
+        "ticket_id",
+        "ticket_date",
+        "site_id",
+        "destination",
+        "litres",
+        "unit_as_logged",
+        "mapped_to_scope1",
+        "notes"
+      ],
+      "preview": [
+        [
+          "DG-08-03",
+          "2026-08-03",
+          "dgws",
+          "Guangzhou OEM sample shipment",
+          "2268",
+          "litres",
+          "yes",
+          ""
+        ],
+        [
+          "DG-08-12",
+          "2026-08-12",
+          "dgws",
+          "Shenzhen warehouse run",
+          "1782",
+          "litres",
+          "yes",
+          ""
+        ],
+        [
+          "DG-08-24",
+          "2026-08-24",
+          "dgws",
+          "Local Dongguan shuttle",
+          "1350",
+          "litres",
+          "yes",
+          ""
+        ],
+        [
+          "DG-08-17",
+          "2026-08-17",
+          "dgws",
+          "Guangzhou OEM sample shipment",
+          "95",
+          "litres",
+          "no",
+          "Unit mismatch: mapping expected kg; excluded from Scope 1"
+        ]
+      ]
+    },
+    {
+      "id": "ng",
+      "file": "src/data/source-examples/natural_gas_meters.csv",
+      "pillar": "environmental",
+      "system": "NG meter",
+      "grain": "meter × month",
+      "feeds": "Scope 1 NG",
+      "note": "One dryer meter.",
+      "headers": [
+        "meter_id",
+        "site_id",
+        "process",
+        "month",
+        "m3",
+        "uom"
+      ],
+      "preview": [
+        [
+          "DG-NG-01",
+          "dgws",
+          "PA66 connector dryers",
+          "2026-01",
+          "2800",
+          "m3"
+        ],
+        [
+          "DG-NG-01",
+          "dgws",
+          "PA66 connector dryers",
+          "2026-02",
+          "2200",
+          "m3"
+        ]
+      ]
+    },
+    {
+      "id": "refrigerant",
+      "file": "src/data/source-examples/refrigerant_topups.csv",
+      "pillar": "environmental",
+      "system": "F-gas notebook",
+      "grain": "event",
+      "feeds": "Scope 1 F-gas (excluded)",
+      "note": "5.5 kg R-134a with no GWP.",
+      "headers": [
+        "log_id",
+        "site_id",
+        "asset",
+        "gas",
+        "date",
+        "kg",
+        "gwp_in_catalog",
+        "included_in_scope1",
+        "notes"
+      ],
+      "preview": [
+        [
+          "FG-2026-0712",
+          "dgws",
+          "Burn-in rack 1",
+          "R-134a",
+          "2026-07-12",
+          "3.1",
+          "no",
+          "no",
+          "Missing GWP"
+        ]
+      ]
+    },
+    {
+      "id": "water",
+      "file": "src/data/source-examples/water_meters.csv",
+      "pillar": "environmental",
+      "system": "Water meters",
+      "grain": "meter × month",
+      "feeds": "Water",
+      "note": "Plating, cooling, PCBA wash.",
+      "headers": [
+        "meter_id",
+        "site_id",
+        "process",
+        "month",
+        "m3",
+        "uom"
+      ],
+      "preview": [
+        [
+          "DG-W-PLT",
+          "dgws",
+          "plating rinse",
+          "2026-01",
+          "732",
+          "m3"
+        ],
+        [
+          "DG-W-CT",
+          "dgws",
+          "cooling tower",
+          "2026-01",
+          "260",
+          "m3"
+        ],
+        [
+          "DG-W-DI",
+          "dgws",
+          "PCBA wash / DI",
+          "2026-01",
+          "188",
+          "m3"
+        ]
+      ]
+    },
+    {
+      "id": "waste",
+      "file": "src/data/source-examples/waste_weighbridge.csv",
+      "pillar": "environmental",
+      "system": "Weighbridge",
+      "grain": "stream × month",
+      "feeds": "Waste",
+      "note": "Plating sludge is the hazardous stream.",
+      "headers": [
+        "ticket_id",
+        "site_id",
+        "stream",
+        "hazardous",
+        "month",
+        "tonnes",
+        "recycled_tonnes",
+        "destination"
+      ],
+      "preview": [
+        [
+          "W-202601-01",
+          "dgws",
+          "copper sprue",
+          "no",
+          "2026-01",
+          "6.2",
+          "5.9",
+          "local scrap merchant"
+        ],
+        [
+          "W-202601-02",
+          "dgws",
+          "PBT/PA66 runner",
+          "no",
+          "2026-01",
+          "3.6",
+          "1.8",
+          "in-house regrind"
+        ],
+        [
+          "W-202601-03",
+          "dgws",
+          "plating sludge",
+          "yes",
+          "2026-01",
+          "2",
+          "0",
+          "licensed HW contractor"
+        ],
+        [
+          "W-202601-04",
+          "dgws",
+          "packaging / solder dross",
+          "no",
+          "2026-01",
+          "2.2",
+          "0.3",
+          "municipal + metal recycler"
+        ]
+      ]
+    },
+    {
+      "id": "monthly-json",
+      "file": "src/data/source-examples/monthly_activity.json",
+      "pillar": "environmental",
+      "system": "Internal monthly close",
+      "grain": "month (JSON)",
+      "feeds": "Environmental + social monthly series",
+      "note": "Same Jan–Aug 2026 activity that the dashboards sum. Companion to the meter CSVs.",
+      "headers": [
+        "month",
+        "electricityKwh",
+        "dieselLitres",
+        "waterM3",
+        "hoursWorked",
+        "headcount"
+      ],
+      "preview": [
+        [
+          "2026-01",
+          "168000",
+          "5200",
+          "1180",
+          "21200",
+          "118"
+        ],
+        [
+          "2026-02",
+          "132000",
+          "3800",
+          "860",
+          "18600",
+          "120"
+        ],
+        [
+          "2026-03",
+          "176000",
+          "5600",
+          "1240",
+          "22800",
+          "122"
+        ]
+      ]
+    },
+    {
+      "id": "org-json",
+      "file": "src/data/source-examples/organization.json",
+      "pillar": "governance",
+      "system": "Legal entity file",
+      "grain": "company (JSON)",
+      "feeds": "Sites and reporting boundary",
+      "note": "Two sites only: HK sales office (12) and one leased Dongguan workshop (116).",
+      "headers": [
+        "field",
+        "value"
+      ],
+      "preview": [
+        [
+          "legalName",
+          "Kaiheng Electric Limited"
+        ],
+        [
+          "sites",
+          "hkhq 12 + dgws 116"
+        ],
+        [
+          "productFocus",
+          "EV charging modules (AC 7–22 kW, DC 20–40 kW) and 400/800 V high-voltage connectors"
+        ]
+      ]
+    },
+    {
+      "id": "customers-json",
+      "file": "src/data/source-examples/customers.json",
+      "pillar": "governance",
+      "system": "RFQ tracker",
+      "grain": "customer (JSON)",
+      "feeds": "Why the pack exists",
+      "note": "Nordic Drive and Helix only — no third global OEM in this pack.",
+      "headers": [
+        "id",
+        "name",
+        "region",
+        "dueDate",
+        "status"
+      ],
+      "preview": [
+        [
+          "cust-nds",
+          "Nordic Drive Systems GmbH",
+          "Germany / EU",
+          "2026-11-30",
+          "RFQ blocked until ESG pack is issued"
+        ],
+        [
+          "cust-helix",
+          "Helix Powertrain SAS",
+          "France / EU",
+          "2026-12-15",
+          "Data request open"
+        ]
+      ]
+    },
+    {
+      "id": "hours",
+      "file": "src/data/source-examples/hours_worked.csv",
+      "pillar": "social",
+      "system": "Clock cards",
+      "grain": "month",
+      "feeds": "LTIFR hours",
+      "note": "Full YTD.",
+      "headers": [
+        "month",
+        "site_id",
+        "hours_worked",
+        "lost_time_injuries",
+        "recordable_incidents",
+        "training_hours",
+        "absentee_hours",
+        "leavers",
+        "headcount_eom"
+      ],
+      "preview": [
+        [
+          "2026-03",
+          "all",
+          "22800",
+          "1",
+          "1",
+          "260",
+          "560",
+          "2",
+          "122"
+        ],
+        [
+          "2026-08",
+          "all",
+          "22800",
+          "0",
+          "0",
+          "310",
+          "505",
+          "2",
+          "128"
+        ]
+      ]
+    },
+    {
+      "id": "incidents",
+      "file": "src/data/source-examples/incidents.csv",
+      "pillar": "social",
+      "system": "EHS log",
+      "grain": "incident",
+      "feeds": "LTIFR numerator",
+      "note": "Three recordables; INC-2026-031 is the LTI. Same rows in incidents.json.",
+      "headers": [
+        "incident_id",
+        "date",
+        "site_id",
+        "line",
+        "severity",
+        "lost_time",
+        "recordable",
+        "hours_lost",
+        "description"
+      ],
+      "preview": [
+        [
+          "INC-2026-031",
+          "2026-03-09",
+          "dgws",
+          "HV connector crimp bench",
+          "lost time",
+          "yes",
+          "yes",
+          "16",
+          "Crush injury on manual 800V crimp changeover — the YTD LTI"
+        ],
+        [
+          "INC-2026-044",
+          "2026-04-15",
+          "dgws",
+          "Plating",
+          "first aid",
+          "no",
+          "yes",
+          "0",
+          "Chemical splash to glove — no lost time"
+        ],
+        [
+          "INC-2026-062",
+          "2026-06-11",
+          "dgws",
+          "Charging-module SMT",
+          "first aid",
+          "no",
+          "yes",
+          "0",
+          "Minor laceration on PCB depanel"
+        ]
+      ]
+    },
+    {
+      "id": "incidents-json",
+      "file": "src/data/source-examples/incidents.json",
+      "pillar": "social",
+      "system": "EHS log",
+      "grain": "incident (JSON)",
+      "feeds": "LTIFR numerator",
+      "note": "JSON copy of incidents.csv.",
+      "headers": [
+        "incident_id",
+        "date",
+        "site_id",
+        "line",
+        "severity",
+        "lost_time",
+        "recordable",
+        "hours_lost",
+        "description"
+      ],
+      "preview": [
+        [
+          "INC-2026-031",
+          "2026-03-09",
+          "dgws",
+          "HV connector crimp bench",
+          "lost time",
+          "yes",
+          "yes",
+          "16",
+          "Crush injury on manual 800V crimp changeover — the YTD LTI"
+        ],
+        [
+          "INC-2026-044",
+          "2026-04-15",
+          "dgws",
+          "Plating",
+          "first aid",
+          "no",
+          "yes",
+          "0",
+          "Chemical splash to glove — no lost time"
+        ],
+        [
+          "INC-2026-062",
+          "2026-06-11",
+          "dgws",
+          "Charging-module SMT",
+          "first aid",
+          "no",
+          "yes",
+          "0",
+          "Minor laceration on PCB depanel"
+        ]
+      ]
+    },
+    {
+      "id": "workforce",
+      "file": "src/data/source-examples/workforce_extract.csv",
+      "pillar": "social",
+      "system": "HR roster",
+      "grain": "worker (full 128 + 1 duplicate)",
+      "feeds": "Headcount",
+      "note": "Full roster. W-1013 duplicated. Same payload in workforce.json.",
+      "headers": [
+        "worker_id",
+        "status",
+        "site_id",
+        "department",
+        "gender",
+        "contract_type",
+        "hire_date",
+        "as_of",
+        "note"
+      ],
+      "preview": [
+        [
+          "W-1013",
+          "active",
+          "dgws",
+          "Connector molding & assembly",
+          "male",
+          "contract",
+          "2024-01-09",
+          "2026-08-31",
+          "OPEN contractor record — not closed after conversion"
+        ],
+        [
+          "W-1013",
+          "active",
+          "dgws",
+          "Connector molding & assembly",
+          "male",
+          "permanent",
+          "2026-08-04",
+          "2026-08-31",
+          "Permanent conversion 4 Aug 2026 — unique headcount uses one ID"
+        ]
+      ]
+    },
+    {
+      "id": "workforce-json",
+      "file": "src/data/source-examples/workforce.json",
+      "pillar": "social",
+      "system": "HR roster",
+      "grain": "worker (JSON)",
+      "feeds": "Headcount",
+      "note": "unique_headcount 128; roster_rows 129; duplicate W-1013.",
+      "headers": [
+        "unique_headcount",
+        "roster_rows",
+        "duplicate_worker_id"
+      ],
+      "preview": [
+        [
+          "128",
+          "129",
+          "W-1013"
+        ]
+      ]
+    },
+    {
+      "id": "training",
+      "file": "src/data/source-examples/training_completions.csv",
+      "pillar": "social",
+      "system": "Attendance sheets",
+      "grain": "worker × course (full HV course)",
+      "feeds": "Training / overdue HV",
+      "note": "All 128 people on 800V safety; 11 overdue.",
+      "headers": [
+        "worker_id",
+        "course",
+        "due_date",
+        "completed_at",
+        "hours",
+        "status"
+      ],
+      "preview": [
+        [
+          "W-1001",
+          "800V electrical safety / LOTO",
+          "2026-09-01",
+          "",
+          "4",
+          "overdue"
+        ],
+        [
+          "W-1002",
+          "800V electrical safety / LOTO",
+          "2026-09-01",
+          "",
+          "4",
+          "overdue"
+        ],
+        [
+          "W-1003",
+          "800V electrical safety / LOTO",
+          "2026-09-01",
+          "",
+          "4",
+          "overdue"
+        ]
+      ]
+    }
+  ]
+}

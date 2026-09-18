@@ -1,0 +1,1299 @@
+{
+  "unique_headcount": 128,
+  "roster_rows": 129,
+  "duplicate_worker_id": "W-1013",
+  "workers": [
+    {
+      "worker_id": "W-1001",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Connector molding & assembly",
+      "gender": "female",
+      "contract_type": "permanent",
+      "hire_date": "2017-06-03",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1002",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Connector molding & assembly",
+      "gender": "female",
+      "contract_type": "permanent",
+      "hire_date": "2018-07-04",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1003",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Connector molding & assembly",
+      "gender": "female",
+      "contract_type": "permanent",
+      "hire_date": "2019-08-05",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1004",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Connector molding & assembly",
+      "gender": "female",
+      "contract_type": "permanent",
+      "hire_date": "2020-09-06",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1005",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Connector molding & assembly",
+      "gender": "female",
+      "contract_type": "permanent",
+      "hire_date": "2021-10-07",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1006",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Connector molding & assembly",
+      "gender": "female",
+      "contract_type": "permanent",
+      "hire_date": "2022-11-08",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1007",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Connector molding & assembly",
+      "gender": "female",
+      "contract_type": "permanent",
+      "hire_date": "2023-12-09",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1008",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Connector molding & assembly",
+      "gender": "female",
+      "contract_type": "permanent",
+      "hire_date": "2024-01-10",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1009",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Connector molding & assembly",
+      "gender": "female",
+      "contract_type": "permanent",
+      "hire_date": "2025-02-11",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1010",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Connector molding & assembly",
+      "gender": "female",
+      "contract_type": "permanent",
+      "hire_date": "2016-03-12",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1011",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Connector molding & assembly",
+      "gender": "female",
+      "contract_type": "permanent",
+      "hire_date": "2017-04-13",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1012",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Connector molding & assembly",
+      "gender": "female",
+      "contract_type": "permanent",
+      "hire_date": "2018-05-14",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1013",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Connector molding & assembly",
+      "gender": "male",
+      "contract_type": "contract",
+      "hire_date": "2024-01-09",
+      "as_of": "2026-08-31",
+      "note": "OPEN contractor record — not closed after conversion"
+    },
+    {
+      "worker_id": "W-1013",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Connector molding & assembly",
+      "gender": "male",
+      "contract_type": "permanent",
+      "hire_date": "2026-08-04",
+      "as_of": "2026-08-31",
+      "note": "Permanent conversion 4 Aug 2026 — unique headcount uses one ID"
+    },
+    {
+      "worker_id": "W-1014",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Connector molding & assembly",
+      "gender": "male",
+      "contract_type": "permanent",
+      "hire_date": "2020-07-16",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1015",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Connector molding & assembly",
+      "gender": "male",
+      "contract_type": "permanent",
+      "hire_date": "2021-08-17",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1016",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Connector molding & assembly",
+      "gender": "male",
+      "contract_type": "permanent",
+      "hire_date": "2022-09-18",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1017",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Connector molding & assembly",
+      "gender": "male",
+      "contract_type": "permanent",
+      "hire_date": "2023-10-19",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1018",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Connector molding & assembly",
+      "gender": "male",
+      "contract_type": "permanent",
+      "hire_date": "2024-11-20",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1019",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Connector molding & assembly",
+      "gender": "male",
+      "contract_type": "permanent",
+      "hire_date": "2025-12-21",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1020",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Connector molding & assembly",
+      "gender": "male",
+      "contract_type": "permanent",
+      "hire_date": "2016-01-22",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1021",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Connector molding & assembly",
+      "gender": "male",
+      "contract_type": "permanent",
+      "hire_date": "2017-02-23",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1022",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Connector molding & assembly",
+      "gender": "male",
+      "contract_type": "permanent",
+      "hire_date": "2018-03-24",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1023",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Connector molding & assembly",
+      "gender": "male",
+      "contract_type": "permanent",
+      "hire_date": "2019-04-25",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1024",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Connector molding & assembly",
+      "gender": "male",
+      "contract_type": "permanent",
+      "hire_date": "2020-05-26",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1025",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Connector molding & assembly",
+      "gender": "male",
+      "contract_type": "permanent",
+      "hire_date": "2021-06-27",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1026",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Connector molding & assembly",
+      "gender": "male",
+      "contract_type": "permanent",
+      "hire_date": "2022-07-01",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1027",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Connector molding & assembly",
+      "gender": "male",
+      "contract_type": "permanent",
+      "hire_date": "2023-08-02",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1028",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Connector molding & assembly",
+      "gender": "male",
+      "contract_type": "permanent",
+      "hire_date": "2024-09-03",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1029",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Connector molding & assembly",
+      "gender": "male",
+      "contract_type": "permanent",
+      "hire_date": "2025-10-04",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1030",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Connector molding & assembly",
+      "gender": "male",
+      "contract_type": "permanent",
+      "hire_date": "2016-11-05",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1031",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Connector molding & assembly",
+      "gender": "male",
+      "contract_type": "permanent",
+      "hire_date": "2017-12-06",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1032",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Connector molding & assembly",
+      "gender": "male",
+      "contract_type": "permanent",
+      "hire_date": "2018-01-07",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1033",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Connector molding & assembly",
+      "gender": "male",
+      "contract_type": "permanent",
+      "hire_date": "2019-02-08",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1034",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Connector molding & assembly",
+      "gender": "male",
+      "contract_type": "permanent",
+      "hire_date": "2020-03-09",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1035",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Connector molding & assembly",
+      "gender": "male",
+      "contract_type": "permanent",
+      "hire_date": "2021-04-10",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1036",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Connector molding & assembly",
+      "gender": "male",
+      "contract_type": "permanent",
+      "hire_date": "2022-05-11",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1037",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Connector molding & assembly",
+      "gender": "male",
+      "contract_type": "permanent",
+      "hire_date": "2023-06-12",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1038",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Connector molding & assembly",
+      "gender": "male",
+      "contract_type": "permanent",
+      "hire_date": "2024-07-13",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1039",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Connector molding & assembly",
+      "gender": "male",
+      "contract_type": "permanent",
+      "hire_date": "2025-08-14",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1040",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Connector molding & assembly",
+      "gender": "male",
+      "contract_type": "permanent",
+      "hire_date": "2016-09-15",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1041",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Connector molding & assembly",
+      "gender": "male",
+      "contract_type": "permanent",
+      "hire_date": "2017-10-16",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1042",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Connector molding & assembly",
+      "gender": "male",
+      "contract_type": "permanent",
+      "hire_date": "2018-11-17",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1043",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Connector molding & assembly",
+      "gender": "male",
+      "contract_type": "permanent",
+      "hire_date": "2019-12-18",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1044",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Connector molding & assembly",
+      "gender": "male",
+      "contract_type": "contract",
+      "hire_date": "2020-01-19",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1045",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Connector molding & assembly",
+      "gender": "male",
+      "contract_type": "contract",
+      "hire_date": "2021-02-20",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1046",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Connector molding & assembly",
+      "gender": "male",
+      "contract_type": "contract",
+      "hire_date": "2022-03-21",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1047",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Connector molding & assembly",
+      "gender": "male",
+      "contract_type": "contract",
+      "hire_date": "2023-04-22",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1048",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Connector molding & assembly",
+      "gender": "male",
+      "contract_type": "contract",
+      "hire_date": "2024-05-23",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1049",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Connector molding & assembly",
+      "gender": "male",
+      "contract_type": "contract",
+      "hire_date": "2025-06-24",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1050",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Connector molding & assembly",
+      "gender": "male",
+      "contract_type": "contract",
+      "hire_date": "2016-07-25",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1051",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Connector molding & assembly",
+      "gender": "male",
+      "contract_type": "contract",
+      "hire_date": "2017-08-26",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1052",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Connector molding & assembly",
+      "gender": "male",
+      "contract_type": "contract",
+      "hire_date": "2018-09-27",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1053",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Charging-module SMT & test",
+      "gender": "female",
+      "contract_type": "permanent",
+      "hire_date": "2019-10-01",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1054",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Charging-module SMT & test",
+      "gender": "female",
+      "contract_type": "permanent",
+      "hire_date": "2020-11-02",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1055",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Charging-module SMT & test",
+      "gender": "female",
+      "contract_type": "permanent",
+      "hire_date": "2021-12-03",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1056",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Charging-module SMT & test",
+      "gender": "female",
+      "contract_type": "permanent",
+      "hire_date": "2022-01-04",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1057",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Charging-module SMT & test",
+      "gender": "female",
+      "contract_type": "permanent",
+      "hire_date": "2023-02-05",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1058",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Charging-module SMT & test",
+      "gender": "female",
+      "contract_type": "permanent",
+      "hire_date": "2024-03-06",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1059",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Charging-module SMT & test",
+      "gender": "female",
+      "contract_type": "permanent",
+      "hire_date": "2025-04-07",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1060",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Charging-module SMT & test",
+      "gender": "female",
+      "contract_type": "permanent",
+      "hire_date": "2016-05-08",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1061",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Charging-module SMT & test",
+      "gender": "female",
+      "contract_type": "permanent",
+      "hire_date": "2017-06-09",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1062",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Charging-module SMT & test",
+      "gender": "female",
+      "contract_type": "permanent",
+      "hire_date": "2018-07-10",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1063",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Charging-module SMT & test",
+      "gender": "female",
+      "contract_type": "permanent",
+      "hire_date": "2019-08-11",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1064",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Charging-module SMT & test",
+      "gender": "female",
+      "contract_type": "permanent",
+      "hire_date": "2020-09-12",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1065",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Charging-module SMT & test",
+      "gender": "male",
+      "contract_type": "permanent",
+      "hire_date": "2021-10-13",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1066",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Charging-module SMT & test",
+      "gender": "male",
+      "contract_type": "permanent",
+      "hire_date": "2022-11-14",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1067",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Charging-module SMT & test",
+      "gender": "male",
+      "contract_type": "permanent",
+      "hire_date": "2023-12-15",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1068",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Charging-module SMT & test",
+      "gender": "male",
+      "contract_type": "permanent",
+      "hire_date": "2024-01-16",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1069",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Charging-module SMT & test",
+      "gender": "male",
+      "contract_type": "permanent",
+      "hire_date": "2025-02-17",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1070",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Charging-module SMT & test",
+      "gender": "male",
+      "contract_type": "permanent",
+      "hire_date": "2016-03-18",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1071",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Charging-module SMT & test",
+      "gender": "male",
+      "contract_type": "permanent",
+      "hire_date": "2017-04-19",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1072",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Charging-module SMT & test",
+      "gender": "male",
+      "contract_type": "permanent",
+      "hire_date": "2018-05-20",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1073",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Charging-module SMT & test",
+      "gender": "male",
+      "contract_type": "permanent",
+      "hire_date": "2019-06-21",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1074",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Charging-module SMT & test",
+      "gender": "male",
+      "contract_type": "permanent",
+      "hire_date": "2020-07-22",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1075",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Charging-module SMT & test",
+      "gender": "male",
+      "contract_type": "contract",
+      "hire_date": "2021-08-23",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1076",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Charging-module SMT & test",
+      "gender": "male",
+      "contract_type": "contract",
+      "hire_date": "2022-09-24",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1077",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Charging-module SMT & test",
+      "gender": "male",
+      "contract_type": "contract",
+      "hire_date": "2023-10-25",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1078",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Charging-module SMT & test",
+      "gender": "male",
+      "contract_type": "contract",
+      "hire_date": "2024-11-26",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1079",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Charging-module SMT & test",
+      "gender": "male",
+      "contract_type": "contract",
+      "hire_date": "2025-12-27",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1080",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Charging-module SMT & test",
+      "gender": "male",
+      "contract_type": "contract",
+      "hire_date": "2016-01-01",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1081",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Quality / HV lab",
+      "gender": "female",
+      "contract_type": "permanent",
+      "hire_date": "2017-02-02",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1082",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Quality / HV lab",
+      "gender": "female",
+      "contract_type": "permanent",
+      "hire_date": "2018-03-03",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1083",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Quality / HV lab",
+      "gender": "female",
+      "contract_type": "permanent",
+      "hire_date": "2019-04-04",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1084",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Quality / HV lab",
+      "gender": "female",
+      "contract_type": "permanent",
+      "hire_date": "2020-05-05",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1085",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Quality / HV lab",
+      "gender": "male",
+      "contract_type": "permanent",
+      "hire_date": "2021-06-06",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1086",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Quality / HV lab",
+      "gender": "male",
+      "contract_type": "permanent",
+      "hire_date": "2022-07-07",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1087",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Quality / HV lab",
+      "gender": "male",
+      "contract_type": "permanent",
+      "hire_date": "2023-08-08",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1088",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Quality / HV lab",
+      "gender": "male",
+      "contract_type": "permanent",
+      "hire_date": "2024-09-09",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1089",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Quality / HV lab",
+      "gender": "male",
+      "contract_type": "permanent",
+      "hire_date": "2025-10-10",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1090",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Quality / HV lab",
+      "gender": "male",
+      "contract_type": "contract",
+      "hire_date": "2016-11-11",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1091",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Quality / HV lab",
+      "gender": "male",
+      "contract_type": "contract",
+      "hire_date": "2017-12-12",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1092",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Product & process engineering",
+      "gender": "female",
+      "contract_type": "permanent",
+      "hire_date": "2018-01-13",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1093",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Product & process engineering",
+      "gender": "female",
+      "contract_type": "permanent",
+      "hire_date": "2019-02-14",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1094",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Product & process engineering",
+      "gender": "female",
+      "contract_type": "permanent",
+      "hire_date": "2020-03-15",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1095",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Product & process engineering",
+      "gender": "male",
+      "contract_type": "permanent",
+      "hire_date": "2021-04-16",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1096",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Product & process engineering",
+      "gender": "male",
+      "contract_type": "permanent",
+      "hire_date": "2022-05-17",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1097",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Product & process engineering",
+      "gender": "male",
+      "contract_type": "permanent",
+      "hire_date": "2023-06-18",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1098",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Product & process engineering",
+      "gender": "male",
+      "contract_type": "permanent",
+      "hire_date": "2024-07-19",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1099",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Product & process engineering",
+      "gender": "male",
+      "contract_type": "permanent",
+      "hire_date": "2025-08-20",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1100",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Product & process engineering",
+      "gender": "male",
+      "contract_type": "permanent",
+      "hire_date": "2016-09-21",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1101",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Product & process engineering",
+      "gender": "male",
+      "contract_type": "permanent",
+      "hire_date": "2017-10-22",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1102",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Product & process engineering",
+      "gender": "male",
+      "contract_type": "permanent",
+      "hire_date": "2018-11-23",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1103",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Product & process engineering",
+      "gender": "male",
+      "contract_type": "permanent",
+      "hire_date": "2019-12-24",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1104",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Supply chain",
+      "gender": "female",
+      "contract_type": "permanent",
+      "hire_date": "2020-01-25",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1105",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Supply chain",
+      "gender": "female",
+      "contract_type": "permanent",
+      "hire_date": "2021-02-26",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1106",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Supply chain",
+      "gender": "female",
+      "contract_type": "permanent",
+      "hire_date": "2022-03-27",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1107",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Supply chain",
+      "gender": "male",
+      "contract_type": "permanent",
+      "hire_date": "2023-04-01",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1108",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Supply chain",
+      "gender": "male",
+      "contract_type": "permanent",
+      "hire_date": "2024-05-02",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1109",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Supply chain",
+      "gender": "male",
+      "contract_type": "permanent",
+      "hire_date": "2025-06-03",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1110",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Supply chain",
+      "gender": "male",
+      "contract_type": "permanent",
+      "hire_date": "2016-07-04",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1111",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "Supply chain",
+      "gender": "male",
+      "contract_type": "contract",
+      "hire_date": "2017-08-05",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1112",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "EHS",
+      "gender": "female",
+      "contract_type": "permanent",
+      "hire_date": "2018-09-06",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1113",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "EHS",
+      "gender": "female",
+      "contract_type": "permanent",
+      "hire_date": "2019-10-07",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1114",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "EHS",
+      "gender": "male",
+      "contract_type": "permanent",
+      "hire_date": "2020-11-08",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1115",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "EHS",
+      "gender": "male",
+      "contract_type": "permanent",
+      "hire_date": "2021-12-09",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1116",
+      "status": "active",
+      "site_id": "dgws",
+      "department": "EHS",
+      "gender": "male",
+      "contract_type": "permanent",
+      "hire_date": "2022-01-10",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1117",
+      "status": "active",
+      "site_id": "hkhq",
+      "department": "Sales & program",
+      "gender": "female",
+      "contract_type": "permanent",
+      "hire_date": "2023-02-11",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1118",
+      "status": "active",
+      "site_id": "hkhq",
+      "department": "Sales & program",
+      "gender": "female",
+      "contract_type": "permanent",
+      "hire_date": "2024-03-12",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1119",
+      "status": "active",
+      "site_id": "hkhq",
+      "department": "Sales & program",
+      "gender": "female",
+      "contract_type": "permanent",
+      "hire_date": "2025-04-13",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1120",
+      "status": "active",
+      "site_id": "hkhq",
+      "department": "Sales & program",
+      "gender": "male",
+      "contract_type": "permanent",
+      "hire_date": "2016-05-14",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1121",
+      "status": "active",
+      "site_id": "hkhq",
+      "department": "Sales & program",
+      "gender": "male",
+      "contract_type": "permanent",
+      "hire_date": "2017-06-15",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1122",
+      "status": "active",
+      "site_id": "hkhq",
+      "department": "Sales & program",
+      "gender": "male",
+      "contract_type": "permanent",
+      "hire_date": "2018-07-16",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1123",
+      "status": "active",
+      "site_id": "hkhq",
+      "department": "Finance",
+      "gender": "female",
+      "contract_type": "permanent",
+      "hire_date": "2019-08-17",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1124",
+      "status": "active",
+      "site_id": "hkhq",
+      "department": "Finance",
+      "gender": "male",
+      "contract_type": "permanent",
+      "hire_date": "2020-09-18",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1125",
+      "status": "active",
+      "site_id": "hkhq",
+      "department": "HR",
+      "gender": "female",
+      "contract_type": "permanent",
+      "hire_date": "2021-10-19",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1126",
+      "status": "active",
+      "site_id": "hkhq",
+      "department": "HR",
+      "gender": "male",
+      "contract_type": "permanent",
+      "hire_date": "2022-11-20",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1127",
+      "status": "active",
+      "site_id": "hkhq",
+      "department": "Corporate (HK)",
+      "gender": "female",
+      "contract_type": "permanent",
+      "hire_date": "2023-12-21",
+      "as_of": "2026-08-31"
+    },
+    {
+      "worker_id": "W-1128",
+      "status": "active",
+      "site_id": "hkhq",
+      "department": "Corporate (HK)",
+      "gender": "male",
+      "contract_type": "permanent",
+      "hire_date": "2024-01-22",
+      "as_of": "2026-08-31"
+    }
+  ]
+}

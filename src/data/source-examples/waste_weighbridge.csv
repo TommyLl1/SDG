@@ -1,0 +1,33 @@
+ticket_id,site_id,stream,hazardous,month,tonnes,recycled_tonnes,destination
+W-202601-01,dgws,copper sprue,no,2026-01,6.2,5.9,local scrap merchant
+W-202601-02,dgws,PBT/PA66 runner,no,2026-01,3.6,1.8,in-house regrind
+W-202601-03,dgws,plating sludge,yes,2026-01,2,0,licensed HW contractor
+W-202601-04,dgws,packaging / solder dross,no,2026-01,2.2,0.3,municipal + metal recycler
+W-202602-01,dgws,copper sprue,no,2026-02,4.4,4.2,local scrap merchant
+W-202602-02,dgws,PBT/PA66 runner,no,2026-02,2.6,1.3,in-house regrind
+W-202602-03,dgws,plating sludge,yes,2026-02,1.4,0,licensed HW contractor
+W-202602-04,dgws,packaging / solder dross,no,2026-02,1.6,0.5,municipal + metal recycler
+W-202603-01,dgws,copper sprue,no,2026-03,6.6,6.3,local scrap merchant
+W-202603-02,dgws,PBT/PA66 runner,no,2026-03,3.9,2,in-house regrind
+W-202603-03,dgws,plating sludge,yes,2026-03,2.1,0,licensed HW contractor
+W-202603-04,dgws,packaging / solder dross,no,2026-03,2.4,0.7,municipal + metal recycler
+W-202604-01,dgws,copper sprue,no,2026-04,6.2,5.9,local scrap merchant
+W-202604-02,dgws,PBT/PA66 runner,no,2026-04,3.6,1.8,in-house regrind
+W-202604-03,dgws,plating sludge,yes,2026-04,2,0,licensed HW contractor
+W-202604-04,dgws,packaging / solder dross,no,2026-04,2.2,0.3,municipal + metal recycler
+W-202605-01,dgws,copper sprue,no,2026-05,7,6.7,local scrap merchant
+W-202605-02,dgws,PBT/PA66 runner,no,2026-05,4.2,2.1,in-house regrind
+W-202605-03,dgws,plating sludge,yes,2026-05,2.2,0,licensed HW contractor
+W-202605-04,dgws,packaging / solder dross,no,2026-05,2.6,0.2,municipal + metal recycler
+W-202606-01,dgws,copper sprue,no,2026-06,7.5,7.1,local scrap merchant
+W-202606-02,dgws,PBT/PA66 runner,no,2026-06,4.4,2.2,in-house regrind
+W-202606-03,dgws,plating sludge,yes,2026-06,2.4,0,licensed HW contractor
+W-202606-04,dgws,packaging / solder dross,no,2026-06,2.7,0.7,municipal + metal recycler
+W-202607-01,dgws,copper sprue,no,2026-07,7,6.7,local scrap merchant
+W-202607-02,dgws,PBT/PA66 runner,no,2026-07,4.2,2.1,in-house regrind
+W-202607-03,dgws,plating sludge,yes,2026-07,2.2,0,licensed HW contractor
+W-202607-04,dgws,packaging / solder dross,no,2026-07,2.6,0.2,municipal + metal recycler
+W-202608-01,dgws,copper sprue,no,2026-08,6.6,6.3,local scrap merchant
+W-202608-02,dgws,PBT/PA66 runner,no,2026-08,3.9,2,in-house regrind
+W-202608-03,dgws,plating sludge,yes,2026-08,2.1,0,licensed HW contractor
+W-202608-04,dgws,packaging / solder dross,no,2026-08,2.4,0.7,municipal + metal recycler

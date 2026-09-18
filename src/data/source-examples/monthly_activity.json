@@ -1,0 +1,191 @@
+{
+  "asOf": "2026-09-18T11:13:00+08:00",
+  "environmental": [
+    {
+      "month": "2026-01",
+      "label": "Jan",
+      "dieselLitres": 5200,
+      "naturalGasM3": 2800,
+      "refrigerantKg": 0,
+      "electricityKwh": 168000,
+      "renewableKwh": 30240,
+      "waterM3": 1180,
+      "wasteTonnes": 14,
+      "recycledTonnes": 8
+    },
+    {
+      "month": "2026-02",
+      "label": "Feb",
+      "dieselLitres": 3800,
+      "naturalGasM3": 2200,
+      "refrigerantKg": 0,
+      "electricityKwh": 132000,
+      "renewableKwh": 26400,
+      "waterM3": 860,
+      "wasteTonnes": 10,
+      "recycledTonnes": 6
+    },
+    {
+      "month": "2026-03",
+      "label": "Mar",
+      "dieselLitres": 5600,
+      "naturalGasM3": 3000,
+      "refrigerantKg": 0,
+      "electricityKwh": 176000,
+      "renewableKwh": 33440,
+      "waterM3": 1240,
+      "wasteTonnes": 15,
+      "recycledTonnes": 9
+    },
+    {
+      "month": "2026-04",
+      "label": "Apr",
+      "dieselLitres": 5300,
+      "naturalGasM3": 2900,
+      "refrigerantKg": 0,
+      "electricityKwh": 171000,
+      "renewableKwh": 34200,
+      "waterM3": 1190,
+      "wasteTonnes": 14,
+      "recycledTonnes": 8
+    },
+    {
+      "month": "2026-05",
+      "label": "May",
+      "dieselLitres": 5700,
+      "naturalGasM3": 3100,
+      "refrigerantKg": 0,
+      "electricityKwh": 182000,
+      "renewableKwh": 38220,
+      "waterM3": 1280,
+      "wasteTonnes": 16,
+      "recycledTonnes": 9
+    },
+    {
+      "month": "2026-06",
+      "label": "Jun",
+      "dieselLitres": 6100,
+      "naturalGasM3": 3300,
+      "refrigerantKg": 0,
+      "electricityKwh": 191000,
+      "renewableKwh": 40110,
+      "waterM3": 1360,
+      "wasteTonnes": 17,
+      "recycledTonnes": 10
+    },
+    {
+      "month": "2026-07",
+      "label": "Jul",
+      "dieselLitres": 5900,
+      "naturalGasM3": 3200,
+      "refrigerantKg": 3.1,
+      "electricityKwh": 198000,
+      "renewableKwh": 39600,
+      "waterM3": 1420,
+      "wasteTonnes": 16,
+      "recycledTonnes": 9
+    },
+    {
+      "month": "2026-08",
+      "label": "Aug",
+      "dieselLitres": 5400,
+      "naturalGasM3": 3000,
+      "refrigerantKg": 2.4,
+      "electricityKwh": 186000,
+      "renewableKwh": 40920,
+      "waterM3": 1310,
+      "wasteTonnes": 15,
+      "recycledTonnes": 9
+    }
+  ],
+  "social": [
+    {
+      "month": "2026-01",
+      "label": "Jan",
+      "headcount": 118,
+      "hoursWorked": 21200,
+      "lostTimeInjuries": 0,
+      "recordableIncidents": 0,
+      "trainingHours": 210,
+      "absenteeHours": 510,
+      "leavers": 1
+    },
+    {
+      "month": "2026-02",
+      "label": "Feb",
+      "headcount": 120,
+      "hoursWorked": 18600,
+      "lostTimeInjuries": 0,
+      "recordableIncidents": 0,
+      "trainingHours": 180,
+      "absenteeHours": 430,
+      "leavers": 1
+    },
+    {
+      "month": "2026-03",
+      "label": "Mar",
+      "headcount": 122,
+      "hoursWorked": 22800,
+      "lostTimeInjuries": 1,
+      "recordableIncidents": 1,
+      "trainingHours": 260,
+      "absenteeHours": 560,
+      "leavers": 2
+    },
+    {
+      "month": "2026-04",
+      "label": "Apr",
+      "headcount": 123,
+      "hoursWorked": 22400,
+      "lostTimeInjuries": 0,
+      "recordableIncidents": 1,
+      "trainingHours": 270,
+      "absenteeHours": 520,
+      "leavers": 1
+    },
+    {
+      "month": "2026-05",
+      "label": "May",
+      "headcount": 125,
+      "hoursWorked": 23100,
+      "lostTimeInjuries": 0,
+      "recordableIncidents": 0,
+      "trainingHours": 280,
+      "absenteeHours": 540,
+      "leavers": 1
+    },
+    {
+      "month": "2026-06",
+      "label": "Jun",
+      "headcount": 126,
+      "hoursWorked": 23600,
+      "lostTimeInjuries": 0,
+      "recordableIncidents": 1,
+      "trainingHours": 290,
+      "absenteeHours": 570,
+      "leavers": 2
+    },
+    {
+      "month": "2026-07",
+      "label": "Jul",
+      "headcount": 127,
+      "hoursWorked": 23200,
+      "lostTimeInjuries": 0,
+      "recordableIncidents": 0,
+      "trainingHours": 300,
+      "absenteeHours": 530,
+      "leavers": 1
+    },
+    {
+      "month": "2026-08",
+      "label": "Aug",
+      "headcount": 128,
+      "hoursWorked": 22800,
+      "lostTimeInjuries": 0,
+      "recordableIncidents": 0,
+      "trainingHours": 310,
+      "absenteeHours": 505,
+      "leavers": 2
+    }
+  ]
+}

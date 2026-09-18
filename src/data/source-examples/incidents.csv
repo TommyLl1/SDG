@@ -1,0 +1,4 @@
+incident_id,date,site_id,line,severity,lost_time,recordable,hours_lost,description
+INC-2026-031,2026-03-09,dgws,HV connector crimp bench,lost time,yes,yes,16,Crush injury on manual 800V crimp changeover — the YTD LTI
+INC-2026-044,2026-04-15,dgws,Plating,first aid,no,yes,0,Chemical splash to glove — no lost time
+INC-2026-062,2026-06-11,dgws,Charging-module SMT,first aid,no,yes,0,Minor laceration on PCB depanel

@@ -1,0 +1,35 @@
+[
+  {
+    "incident_id": "INC-2026-031",
+    "date": "2026-03-09",
+    "site_id": "dgws",
+    "line": "HV connector crimp bench",
+    "severity": "lost time",
+    "lost_time": "yes",
+    "recordable": "yes",
+    "hours_lost": 16,
+    "description": "Crush injury on manual 800V crimp changeover — the YTD LTI"
+  },
+  {
+    "incident_id": "INC-2026-044",
+    "date": "2026-04-15",
+    "site_id": "dgws",
+    "line": "Plating",
+    "severity": "first aid",
+    "lost_time": "no",
+    "recordable": "yes",
+    "hours_lost": 0,
+    "description": "Chemical splash to glove — no lost time"
+  },
+  {
+    "incident_id": "INC-2026-062",
+    "date": "2026-06-11",
+    "site_id": "dgws",
+    "line": "Charging-module SMT",
+    "severity": "first aid",
+    "lost_time": "no",
+    "recordable": "yes",
+    "hours_lost": 0,
+    "description": "Minor laceration on PCB depanel"
+  }
+]

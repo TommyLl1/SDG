@@ -1,0 +1,22 @@
+[
+  {
+    "id": "cust-nds",
+    "name": "Nordic Drive Systems GmbH",
+    "region": "Germany / EU",
+    "relationship": "First EU RFQ — charging modules",
+    "products": "DC 20 kW charging modules (sample + 2k/year intent)",
+    "asksFor": "LkSG + CSDDD supplier pack: Scope 1–2, energy, plating water, hazardous waste, LTIFR, labour, anti-corruption",
+    "dueDate": "2026-11-30",
+    "status": "RFQ blocked until ESG pack is issued"
+  },
+  {
+    "id": "cust-helix",
+    "name": "Helix Powertrain SAS",
+    "region": "France / EU",
+    "relationship": "Prototype HV connector programme",
+    "products": "800 V connectors (low volume)",
+    "asksFor": "CSRD value-chain data: GHG, energy mix, water, waste, hours, HV electrical-safety training",
+    "dueDate": "2026-12-15",
+    "status": "Data request open"
+  }
+]
