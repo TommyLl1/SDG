@@ -38,12 +38,12 @@ export function AppShell() {
       >
         Skip to content
       </a>
-      <header className="bg-white border-b border-[#365828]/15">
+      <header className="bg-white border-b border-[#365828]">
         <div className="max-w-[1920px] mx-auto px-6">
-          <div className="flex items-center justify-between min-h-16">
+          <div className="flex items-center justify-between min-h-20">
             <div className="flex items-center min-w-0">
-              <Link to="/" className="flex items-center gap-3 pr-6 mr-1 border-r border-[#365828]/15 h-16">
-                <BrandLogo className="h-9 w-9 shrink-0" />
+              <Link to="/" className="flex items-center gap-3 pr-6 mr-1 border-r border-[#365828]/15 h-20">
+                <BrandLogo className="h-12 w-12 shrink-0" />
                 <div className="hidden xl:block">
                   <p className="text-[#365828] text-sm leading-tight">{BRAND.name}</p>
                   <p className="text-[#365828]/70 text-xs">ESG report generation</p>
@@ -56,7 +56,7 @@ export function AppShell() {
                     to={link.to}
                     end={'end' in link ? link.end : false}
                     className={({ isActive }) =>
-                      `px-5 h-16 border-r border-[#365828]/15 transition-colors flex items-center gap-2 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:outline-[#365828] ${
+                      `px-5 h-20 border-r border-[#365828]/15 transition-colors flex items-center gap-2 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:outline-[#365828] ${
                         isActive ? 'bg-[#365828]/10 text-[#365828]' : 'text-[#365828]/70 hover:bg-[#365828]/5 hover:text-[#365828]'
                       }`
                     }
