@@ -1,8 +1,10 @@
-import { NavLink, Navigate, Outlet, useNavigate } from 'react-router';
+import { NavLink, Navigate, Outlet, useNavigate, Link } from 'react-router';
 import { Settings, Leaf, BarChart3, Users, ShieldCheck, LogOut } from 'lucide-react';
 import { useEsg } from '../context/EsgProvider';
 import { SettingsModal } from './SettingsModal';
 import { clearSession, hasSession } from '../../lib/storage';
+import { BRAND } from '../../lib/brand';
+import { BrandLogo } from './BrandLogo';
 
 const links = [
   { to: '/dashboard', label: 'Main Dashboard', end: true },
@@ -21,7 +23,7 @@ const links = [
 ] as const;
 
 export function AppShell() {
-  const { dataset, openSettings, openBlockers } = useEsg();
+  const { openSettings, openBlockers } = useEsg();
   const navigate = useNavigate();
 
   if (!hasSession()) {
@@ -36,14 +38,17 @@ export function AppShell() {
       >
         Skip to content
       </a>
-      <header className="bg-[#003A70] border-b border-[#E5B700]/30">
+      <header className="bg-[#365828] border-b border-white/15">
         <div className="max-w-[1920px] mx-auto px-6">
           <div className="flex items-center justify-between min-h-16">
             <div className="flex items-center min-w-0">
-              <div className="pr-6 mr-1 border-r border-[#E5B700]/30 py-3 hidden xl:block">
-                <p className="text-[#E5B700] text-sm leading-tight">{dataset.organization.shortName}</p>
-                <p className="text-white/70 text-xs">{dataset.organization.chineseName} · FY2026 YTD</p>
-              </div>
+              <Link to="/" className="flex items-center gap-3 pr-6 mr-1 border-r border-white/15 h-16">
+                <BrandLogo className="h-9 w-9 shrink-0" />
+                <div className="hidden xl:block">
+                  <p className="text-white text-sm leading-tight">{BRAND.name}</p>
+                  <p className="text-white/70 text-xs">ESG report generation</p>
+                </div>
+              </Link>
               <nav aria-label="Primary" className="flex items-stretch">
                 {links.map((link) => (
                   <NavLink
@@ -51,8 +56,8 @@ export function AppShell() {
                     to={link.to}
                     end={'end' in link ? link.end : false}
                     className={({ isActive }) =>
-                      `px-5 h-16 border-r border-[#E5B700]/30 transition-colors flex items-center gap-2 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:outline-[#E5B700] ${
-                        isActive ? 'bg-[#E5B700]/10 text-[#E5B700]' : 'text-white hover:bg-[#E5B700]/5'
+                      `px-5 h-16 border-r border-white/15 transition-colors flex items-center gap-2 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:outline-white ${
+                        isActive ? 'bg-white/15 text-white' : 'text-white/80 hover:bg-white/10 hover:text-white'
                       }`
                     }
                   >
@@ -64,14 +69,14 @@ export function AppShell() {
             </div>
             <div className="flex items-center gap-3">
               {openBlockers.length > 0 && (
-                <span className="hidden lg:inline text-[#E5B700] text-xs">
+                <span className="hidden lg:inline text-white text-xs">
                   {openBlockers.length} report blocker{openBlockers.length === 1 ? '' : 's'}
                 </span>
               )}
               <button
                 type="button"
                 onClick={() => openSettings()}
-                className="p-3 text-[#E5B700] hover:bg-[#E5B700]/10 rounded transition-colors border-2 border-[#E5B700]/50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#E5B700]"
+                className="p-3 text-white hover:bg-white/10 rounded transition-colors border-2 border-white/40 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
                 aria-label="Open settings"
               >
                 <Settings className="w-5 h-5" />
@@ -82,7 +87,7 @@ export function AppShell() {
                   clearSession();
                   navigate('/');
                 }}
-                className="p-3 text-white/80 hover:bg-[#E5B700]/10 rounded transition-colors border-2 border-white/20 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#E5B700]"
+                className="p-3 text-white/80 hover:bg-white/10 rounded transition-colors border-2 border-white/20 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
                 aria-label="Sign out"
               >
                 <LogOut className="w-5 h-5" />
