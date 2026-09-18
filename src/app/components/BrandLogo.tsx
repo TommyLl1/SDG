@@ -1,3 +1,4 @@
+import mark from '../../assets/logo-mark.png';
 import { BRAND } from '../../lib/brand';
 
 export function BrandLogo({
@@ -7,5 +8,5 @@ export function BrandLogo({
   className?: string;
   alt?: string;
 }) {
-  return <img src="/logo.svg" alt={alt} className={`object-contain ${className}`} />;
+  return <img src={mark} alt={alt} className={`object-contain ${className}`} />;
 }
