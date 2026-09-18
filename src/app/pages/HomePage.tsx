@@ -10,13 +10,13 @@ export function HomePage() {
   const next = signedIn ? '/dashboard' : '/login';
 
   return (
-    <div className="min-h-screen bg-[#365828] text-white">
+    <div className="min-h-screen bg-white text-[#365828]">
       <header className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-        <Link to="/" className="flex items-center gap-2 text-white">
+        <Link to="/" className="flex items-center gap-2 text-[#365828]">
           <BrandLogo className="h-9 w-9" />
           <span className="tracking-wide">{BRAND.name}</span>
         </Link>
-        <Link to={next} className="text-sm text-white/80 hover:text-white">
+        <Link to={next} className="text-sm text-[#365828]/70 hover:text-[#365828]">
           {signedIn ? 'Dashboards' : 'Sign in'}
         </Link>
       </header>
@@ -24,18 +24,18 @@ export function HomePage() {
       <main>
         <section className="max-w-6xl mx-auto px-6 pt-16 pb-20 md:pt-24 md:pb-28">
           <BrandLogo className="h-20 w-20 mb-8" />
-          <p className="text-white/70 text-sm mb-4">ESG report generation</p>
-          <h1 className="text-white mb-6" style={{ fontSize: 'clamp(2.5rem, 8vw, 5.5rem)', lineHeight: 0.95, fontWeight: 600 }}>
+          <p className="text-[#365828]/70 text-sm mb-4">ESG report generation</p>
+          <h1 className="text-[#365828] mb-6" style={{ fontSize: 'clamp(2.5rem, 8vw, 5.5rem)', lineHeight: 0.95, fontWeight: 600 }}>
             Data in.
             <br />
             Pack out.
           </h1>
-          <p className="text-white/80 text-lg max-w-md mb-10">
+          <p className="text-[#365828]/80 text-lg max-w-md mb-10">
             Files or API → live E / S / G scores → PDF and Excel.
           </p>
           <Link
             to={next}
-            className="inline-flex items-center gap-2 px-8 py-4 bg-white text-[#365828] rounded hover:bg-white/90"
+            className="inline-flex items-center gap-2 px-8 py-4 bg-[#365828] text-white rounded hover:bg-[#365828]/90"
             style={{ fontSize: '1.125rem' }}
           >
             {signedIn ? 'Open dashboards' : 'Start'}
@@ -43,7 +43,7 @@ export function HomePage() {
           </Link>
         </section>
 
-        <section className="border-t border-white/15">
+        <section className="border-t border-[#365828]/15">
           <div className="max-w-6xl mx-auto px-6 py-10 grid grid-cols-2 md:grid-cols-4 gap-8">
             {[
               ['01', 'Connect'],
@@ -52,14 +52,14 @@ export function HomePage() {
               ['04', 'Export'],
             ].map(([n, label]) => (
               <div key={label}>
-                <p className="text-white/50 text-sm mb-1">{n}</p>
+                <p className="text-[#365828]/40 text-sm mb-1">{n}</p>
                 <p className="text-xl">{label}</p>
               </div>
             ))}
           </div>
         </section>
 
-        <section className="bg-white text-[#365828]">
+        <section>
           <div className="max-w-6xl mx-auto px-6 py-12 grid md:grid-cols-3 gap-6">
             <Pillar icon={<Leaf className="w-6 h-6" />} title="Environmental" note="Scope 1–2" />
             <Pillar icon={<Users className="w-6 h-6" />} title="Social" note="Labour & safety" />
@@ -74,12 +74,12 @@ export function HomePage() {
           </div>
         </section>
 
-        <section className="max-w-6xl mx-auto px-6 py-10 flex flex-wrap items-center gap-6 text-sm text-white/80">
+        <section className="max-w-6xl mx-auto px-6 py-10 flex flex-wrap items-center gap-6 text-sm text-[#365828]/80">
           <span className="inline-flex items-center gap-2">
-            <FileSpreadsheet className="w-4 h-4 text-white" /> Upload
+            <FileSpreadsheet className="w-4 h-4 text-[#365828]" /> Upload
           </span>
           <span className="inline-flex items-center gap-2">
-            <Plug className="w-4 h-4 text-white" /> API
+            <Plug className="w-4 h-4 text-[#365828]" /> API
           </span>
           <span>Any input continues. Nothing is checked.</span>
         </section>

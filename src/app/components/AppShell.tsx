@@ -38,15 +38,15 @@ export function AppShell() {
       >
         Skip to content
       </a>
-      <header className="bg-[#365828] border-b border-white/15">
+      <header className="bg-white border-b border-[#365828]/15">
         <div className="max-w-[1920px] mx-auto px-6">
           <div className="flex items-center justify-between min-h-16">
             <div className="flex items-center min-w-0">
-              <Link to="/" className="flex items-center gap-3 pr-6 mr-1 border-r border-white/15 h-16">
+              <Link to="/" className="flex items-center gap-3 pr-6 mr-1 border-r border-[#365828]/15 h-16">
                 <BrandLogo className="h-9 w-9 shrink-0" />
                 <div className="hidden xl:block">
-                  <p className="text-white text-sm leading-tight">{BRAND.name}</p>
-                  <p className="text-white/70 text-xs">ESG report generation</p>
+                  <p className="text-[#365828] text-sm leading-tight">{BRAND.name}</p>
+                  <p className="text-[#365828]/70 text-xs">ESG report generation</p>
                 </div>
               </Link>
               <nav aria-label="Primary" className="flex items-stretch">
@@ -56,8 +56,8 @@ export function AppShell() {
                     to={link.to}
                     end={'end' in link ? link.end : false}
                     className={({ isActive }) =>
-                      `px-5 h-16 border-r border-white/15 transition-colors flex items-center gap-2 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:outline-white ${
-                        isActive ? 'bg-white/15 text-white' : 'text-white/80 hover:bg-white/10 hover:text-white'
+                      `px-5 h-16 border-r border-[#365828]/15 transition-colors flex items-center gap-2 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:outline-[#365828] ${
+                        isActive ? 'bg-[#365828]/10 text-[#365828]' : 'text-[#365828]/70 hover:bg-[#365828]/5 hover:text-[#365828]'
                       }`
                     }
                   >
@@ -69,14 +69,14 @@ export function AppShell() {
             </div>
             <div className="flex items-center gap-3">
               {openBlockers.length > 0 && (
-                <span className="hidden lg:inline text-white text-xs">
+                <span className="hidden lg:inline text-[#365828] text-xs">
                   {openBlockers.length} report blocker{openBlockers.length === 1 ? '' : 's'}
                 </span>
               )}
               <button
                 type="button"
                 onClick={() => openSettings()}
-                className="p-3 text-white hover:bg-white/10 rounded transition-colors border-2 border-white/40 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+                className="p-3 text-[#365828] hover:bg-[#365828]/10 rounded transition-colors border-2 border-[#365828]/40 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#365828]"
                 aria-label="Open settings"
               >
                 <Settings className="w-5 h-5" />
@@ -87,7 +87,7 @@ export function AppShell() {
                   clearSession();
                   navigate('/');
                 }}
-                className="p-3 text-white/80 hover:bg-white/10 rounded transition-colors border-2 border-white/20 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+                className="p-3 text-[#365828]/80 hover:bg-[#365828]/10 rounded transition-colors border-2 border-[#365828]/20 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#365828]"
                 aria-label="Sign out"
               >
                 <LogOut className="w-5 h-5" />

@@ -28,14 +28,14 @@ export function LoginPage() {
   };
 
   return (
-    <div className="min-h-screen bg-[#F8F9FA] text-[#365828]">
-      <header className="bg-[#365828] border-b border-white/15">
+    <div className="min-h-screen bg-white text-[#365828]">
+      <header className="bg-white border-b border-[#365828]/15">
         <div className="max-w-xl mx-auto px-6 h-16 flex items-center justify-between">
-          <Link to="/" className="flex items-center gap-2 text-white text-sm hover:text-white/80">
+          <Link to="/" className="flex items-center gap-2 text-[#365828] text-sm hover:text-[#365828]/80">
             <BrandLogo className="h-8 w-8" />
             {BRAND.name}
           </Link>
-          <Link to="/" className="text-white/70 text-sm hover:text-white">
+          <Link to="/" className="text-[#365828]/70 text-sm hover:text-[#365828]">
             Back to intro
           </Link>
         </div>

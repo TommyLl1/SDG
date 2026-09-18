@@ -1,4 +1,4 @@
-import mark from '../../assets/logo-mark.png';
+import mark from '../../assets/logo-green.png';
 import { BRAND } from '../../lib/brand';
 
 export function BrandLogo({
