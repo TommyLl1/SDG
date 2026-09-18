@@ -3,7 +3,6 @@ import { Settings, Leaf, BarChart3, Users, ShieldCheck, LogOut } from 'lucide-re
 import { useEsg } from '../context/EsgProvider';
 import { SettingsModal } from './SettingsModal';
 import { clearSession, hasSession } from '../../lib/storage';
-import { BRAND } from '../../lib/brand';
 import { BrandLogo } from './BrandLogo';
 
 const links = [
@@ -42,12 +41,8 @@ export function AppShell() {
         <div className="max-w-[1920px] mx-auto px-6">
           <div className="flex items-center justify-between min-h-16">
             <div className="flex items-center min-w-0">
-              <Link to="/" className="flex items-center gap-3 pr-6 mr-1 border-r border-[#365828]/15 h-16">
+              <Link to="/" className="flex items-center pr-6 mr-1 border-r border-[#365828]/15 h-16">
                 <BrandLogo className="h-9 w-9 shrink-0" />
-                <div className="hidden xl:block">
-                  <p className="text-[#365828] text-sm leading-tight">{BRAND.name}</p>
-                  <p className="text-[#365828]/70 text-xs">ESG report generation</p>
-                </div>
               </Link>
               <nav aria-label="Primary" className="flex items-stretch">
                 {links.map((link) => (
